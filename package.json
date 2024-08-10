@@ -1,0 +1,23 @@
+{
+  "name": "chirpstack-dev-importer",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "npx ts-node src/index.ts",
+    "delete": "npx ts-node src/api/deleteDevice.ts",
+    "update": "npx ts-node src/api/updateKeys.ts"
+  },
+  "keywords": [],
+  "author": "n-fuse GmbH",
+  "license": "commercial",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/prompts": "^2.4.9",
+    "axios": "^1.6.8",
+    "csv-parser": "^3.0.0",
+    "prompts": "^2.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
